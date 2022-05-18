@@ -1,0 +1,59 @@
+{"services": [
+    {
+        "name": "Películas",
+        "slug": "peliculas",
+        "id": 1,
+        "description":"Nuestro mejor surtido de peliculas a tu disposición",
+        "genres":[
+            {
+                "name":"Terror",
+                "slug":"terror",
+                "description":"Para pasar miedo",
+                "films":[
+                    {"name":"Pelicula 1"},
+                    {"name":"Pelicula 2"},
+                    {"name":"Pelicula 3"},
+                    {"name":"Pelicula 4"},
+                    {"name":"Pelicula 5"},
+                    {"name":"Pelicula 6"}
+                ]
+            },
+            {
+                "name":"Acción",
+                "slug":"accion",
+                "description":"Trepidante acción"
+            },
+            {
+                "name":"Comedia",
+                "slug":"comedia",
+                "description":"¡Hora de reirse!"
+            }
+
+        ]
+   },
+
+   {
+    "name": "juegos",
+    "slug": "juegos",
+    "id": 2,
+    "description":"Videojuegos para todos los gustos",
+    "genres":[
+        {
+            "name":"Terror",
+            "slug":"terror",
+            "description":"Para pasar miedo"
+        },
+        {
+            "name":"Acción",
+            "slug":"accion",
+            "description":"Trepidante acción"
+        },
+        {
+            "name":"Plataformas",
+            "slug":"plataformas",
+            "description":"¡Saltando!"
+        }
+
+    ]
+   }
+]}
